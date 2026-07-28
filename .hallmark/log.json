@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-07-26",
+    "scope": "app",
+    "macrostructure": "Workbench",
+    "theme": "Lumen",
+    "enrichment": "none",
+    "nav": "N5/N13 hybrid",
+    "brief": "Adapt the Lumen Night Foundry theme to the compact local project workbench"
+  },
+  {
+    "date": "2026-07-26",
+    "scope": "app",
+    "macrostructure": "Workbench",
+    "theme": "Cobalt",
+    "enrichment": "none",
+    "nav": "N13",
+    "brief": "Redesign the local project operations console"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "date": "2026-07-26",
+  "framework": "React 19 + Vite 7",
+  "fontStack": "Instrument Serif display, Geist body, JetBrains Mono technical",
+  "palette": "Lumen Night Foundry OKLCH tokens in repository-root tokens.css",
+  "motion": "CSS-only, motion-cut with three purposeful interaction primitives",
+  "spacing": "4-point named scale",
+  "designSystem": "design.md"
+}

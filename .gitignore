@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+*.log
+data/*.db
+data/*.db-*
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+configs/personal-projects.json

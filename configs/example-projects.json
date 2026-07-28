@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Example Web App",
+    "path": "/Users/you/Projects/example-web-app",
+    "serviceUrl": "http://localhost:3000",
+    "description": "Replace this template with your own local project path, commands, and health probe.",
+    "icon": "EX",
+    "tags": ["example", "web"],
+    "enabled": true,
+    "steps": [
+      {
+        "id": "web",
+        "name": "Development Server",
+        "type": "command",
+        "mode": "process",
+        "start": {
+          "executable": "npm",
+          "args": ["run", "dev", "--", "--port", "3000"],
+          "cwd": "."
+        },
+        "dependsOn": [],
+        "probe": {
+          "type": "http",
+          "url": "http://localhost:3000",
+          "expectedStatus": 200,
+          "timeoutMs": 30000
+        }
+      }
+    ]
+  }
+]
